@@ -5,7 +5,7 @@
       <div class="col-12 text-center">
         <h1 class="title">Contactos</h1>
         <p class="mt-4">
-          Pode entrar em contacto connosco através :
+          Pode entrar em contacto connosco através dos seguintes meios:
         </p>
       </div>
 
