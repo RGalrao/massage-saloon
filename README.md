@@ -1,53 +1,59 @@
-
-💆‍♀️ Massage Saloon
+# 💆‍♀️ Massage Saloon
 
 A modern web application for managing a massage salon’s services, bookings, and client interactions.
 
+---
 
-📌 Overview
+## 📌 Overview
 
-Massage Saloon is a full-stack web application designed to simulate a real-world massage therapy business website. It allows users to browse services, schedule appointments, in an intuitive interface.
+**Massage Saloon** is a full-stack web application designed to simulate a real-world massage therapy business website. It allows users to browse services and schedule appointments through an intuitive and responsive interface.
 
+---
 
-🚀 Features
+## 🚀 Features
 
-💆 Service listing with descriptions
-📱 Responsive design
-🗂️ Structured project architecture
+- 💆 Service listing with detailed descriptions  
+- 📱 Responsive design for mobile and desktop  
+- 🗂️ Structured and organized project architecture  
 
+---
 
-🛠️ Tech Stack
+## 🛠️ Tech Stack
 
-Frontend
+### Frontend
+- HTML5  
+- CSS3  
 
-HTML5
-CSS3
+### Backend
+- PHP  
 
-Backend
+---
 
-PHP
-
-
-🎯 Purpose of This Project
+## 🎯 Purpose of This Project
 
 This project was built to:
 
-Practice full-stack development
-Simulate a real business use case
-Improve frontend structure and backend logic handling
-Strengthen understanding of form validation and routing
+- Practice full-stack development  
+- Simulate a real business use case  
+- Improve frontend structure and backend logic handling  
+- Strengthen understanding of form validation and routing  
 
-📈 Future Improvements
+---
 
+## 📈 Future Improvements
 
-Admin dashboard
-Setup Availability
-Bookings System
-Payment integration
-Email confirmation system
-Improved UI/UX animations
+- Admin dashboard  
+- Availability setup system  
+- Booking management system  
+- Payment integration  
+- Email confirmation system  
+- Improved UI/UX animations  
 
-👨‍💻 Author
+---
 
-Rodrigo Galrão
-GitHub: https://github.com/RGalrao
+## 👨‍💻 Author
+
+**Rodrigo Galrão**  
+GitHub: [RGalrao](https://github.com/RGalrao)
+
+---
