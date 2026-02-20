@@ -12,7 +12,7 @@ A modern web application for managing a massage salon’s services, bookings, an
 
 ## 🚀 Features
 
-- 💆 Service listing with detailed descriptions  
+- 💆 Service listing with descriptions  
 - 📱 Responsive design for mobile and desktop  
 - 🗂️ Structured and organized project architecture  
 
@@ -22,7 +22,8 @@ A modern web application for managing a massage salon’s services, bookings, an
 
 ### Frontend
 - HTML5  
-- CSS3  
+- CSS3
+- Bootstrap
 
 ### Backend
 - PHP  
