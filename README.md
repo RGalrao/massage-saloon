@@ -1,5 +1,5 @@
 # 💆‍♀️ Massage Saloon
-👉 [**Live Demo:**](https://portfolio101.great-site.net/)
+👉 [**Live Demo**](https://portfolio101.great-site.net/)
 
 A modern web application for managing a massage salon’s services, bookings, and client interactions.
 
