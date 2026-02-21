@@ -20,15 +20,17 @@ $massagens = get_massagens();
 
 </head>
 <body>
-
+  
   <header class="container-fluid">
+    <!-- Logo -->
     <div class="row">
-      <div class="col-12 p-0 mt-3 mb-4">
-        <a href="index.php"><img src="public/imgs/logo.svg" alt="logo" id="logo"></a>
+      <div class="col-12 p-0 mt-5 mb-5">
+        <a href="index.php"><img src="public/imgs/logo9fancy.svg" alt="logo" id="logo"></a>
       </div>
     </div>
 
-    <div class="row">
+    <!-- Navbar -->
+    <div class="row"> 
       <div class="col-12 col-sm-10 p-0 m-auto">
         <nav class="navbar navbar-expand-sm">
           <div class="container-fluid">

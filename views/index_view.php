@@ -25,7 +25,7 @@ $massagens = get_massagens();
             <div class="card-body">
               <h5 class="card-title mt-3 mb-4 site-color"><?= $massagem["nome_massagem"] ?></h5>
               <h4 class="card-subtitle mb-3 site-color"><?= $massagem["tipo_massagem"] ?></h4>
-              <p class="card-text"><?= abrv($massagem["descricao"], 150) ?></p>
+              <p class="card-text"><?= abrv($massagem["descricao"], 250) ?></p>
               <a href="massagem.php?id=<?= $massagem["id"] ?>" class="btn">Ver Mais</a>
             </div>
           </div>
