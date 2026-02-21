@@ -44,12 +44,12 @@ This project was built to:
 
 ## 📈 Future Improvements
 
-- Admin dashboard  
+- Admin dashboard  (already created, ongoing devolopment)
+- CRUD system
 - Availability setup system  
 - Booking management system  
 - Payment integration  
 - Email confirmation system  
-- Improved UI/UX animations  
 
 ---
 
