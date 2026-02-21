@@ -2,7 +2,7 @@
 
 $db = [
   "host" => "localhost",
-  "dbname" => "site_deb_db",
+  "dbname" => "massage_saloon_db",
   "user" => "root",
   "pass" => "",
 ];

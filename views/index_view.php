@@ -34,59 +34,6 @@ $massagens = get_massagens();
           </div>
         </div>
       <?php endforeach; ?>
-
-
-
-
-
-<!--       
-      <div class="col-12 col-sm-6 col-md-4 d-flex justify-content-center text-center my-4">
-        <div class="card" style="width: 22rem;">
-          <img src="public/imgs/massagem-corpo.avif" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Massagem Terapêutica</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-            <a href="massagens.php" class="btn">Ver Mais</a>
-          </div>
-        </div>
-      </div>
-      
-      
-      <div class="col-12 col-sm-6 col-md-4 d-flex justify-content-center text-center my-4">
-        <div class="card" style="width: 22rem;">
-          <img src="public/imgs/cranio-facial.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Massagem Crânio-Facial</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-            <a href="massagens.php" class="btn">Ver Mais</a>
-          </div>
-        </div>
-      </div>  
-      
-      <div class="col-12 col-sm-6 col-md-4 d-flex justify-content-center text-center my-4">
-        <div class="card" style="width: 22rem;">
-          <img src="public/imgs/massagem-modeladora2.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Massagem Modeladora</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-            <a href="massagens.php" class="btn">Ver Mais</a>
-          </div>
-        </div>
-      </div>
-      
-      <div class="col-12 col-sm-6 col-md-4 d-flex justify-content-center text-center my-4">
-        <div class="card" style="width: 22rem;">
-          <img src="public/imgs/massagem-desportiva2.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Massagem Desportiva</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-            <a href="massagens.php" class="btn">Ver Mais</a>
-          </div>
-        </div>
-      </div> 
-    -->
-      
-      
     </div>
 
   </main>

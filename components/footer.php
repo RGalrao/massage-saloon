@@ -17,7 +17,7 @@
 
     <div class="row mt-5 mb-2">
       <div class="col-12">
-        <span class="text-muted">© <?= date("Y") ?>. All rights reserved. Rodrigo Galrão.</span>
+        <span class="text-muted">© <a href="https://r-galrao.framer.website/" target="_blank">Rodrigo Galrão</a> <?= date("Y") ?>.</span>
       </div>
     </div>
   </footer>

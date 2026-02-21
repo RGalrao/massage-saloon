@@ -26,7 +26,7 @@
           <li>Drenagem Linfática</li>
           <li>Massagem Desportiva</li>
           <li>Ventosas no Desporto</li>
-          <li>Apararologia</li>
+          <li>Aparatologia</li>
         </ul>
       </div> 
     </div>

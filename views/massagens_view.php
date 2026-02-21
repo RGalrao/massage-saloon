@@ -1,4 +1,8 @@
+<?php
 
+$massagens = get_massagens();
+
+?>
   <main class="container-fluid">
 
     <div class="row mt-5">
@@ -17,31 +21,26 @@
     <div class="row mt-3">
       
       <div class="col-12 col-md-8 m-auto">
-        <div class="accordion" id="accordionExample">
-
-        <div class="accordion-item"> <!-- (para um mostrar predifinido) -->
-          <h2 class="accordion-header"><!-- (remove collapsed) -->                                                                    <!-- true -->
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-              <b class="site-color">Massagem de Relaxamento </b><span class="ms-2 tipo-massagem">Óleos Essenciais</span>
-            </button>
-          </h2>                                     <!-- add show -->
-          <div id="collapseOne" class="accordion-collapse collapse " data-bs-parent="#accordionExample">
-            <div class="accordion-body text-start">
-              <p><b>Intensidade do toque:</b> Suave e reconfortante</p>
-              <p><b>Duração:</b> 60 minutos</p>
-              <p><b>Preço:</b> €45</p>
-              <p>
-                <b>Descrição da massagem:</b> <br>
-                Massagem relaxante utilizando óleos essenciais para promover o relaxamento profundo, aliviar o stress e revitalizar o corpo e a mente.
-              </p>
-              <p>
-                <b>Benefícios:</b> <br>
-                Esta massagem ajuda a reduzir o stress e a ansiedade, a melhorar a circulação sanguínea e a promover um melhor sono. É perfeita para quem procura um momento de paz e serenidade, para se desconectar do ritmo agitado da vida quotidiana e reconectar-se consigo mesmo numa atmosfera de total relaxamento. Com a nossa Massagem Relaxante, damos-lhe a oportunidade de cuidar de si, nutrir a sua mente e corpo, e trazer um olhar mais positivo para a sua vida.
-              </p>
+        <div class="accordion" id="accordionMassages">
+          <?php foreach ($massagens as $massagem): ?>
+            <div class="accordion-item">
+              <h2 class="accordion-header">                                                                 <!-- true -->
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse_<?= $massagem['id'] ?>" aria-expanded="false" aria-controls="collapse_<?= $massagem['id'] ?>">
+                  <b class="site-color"><?= $massagem["nome_massagem"] ?> </b><span class="ms-2 tipo-massagem"><?= $massagem["tipo_massagem"] ?></span>
+                </button>
+              </h2>                                     
+              <div id="collapse_<?= $massagem['id'] ?>" class="accordion-collapse collapse " data-bs-parent="#accordionMassages">
+                <div class="accordion-body text-start">
+                  <p><b>Intensidade do toque:</b> <?= $massagem["toque"] ?></p>
+                  <p><b>Duração:</b> <?= $massagem["duracao"] ?> <?= ($massagem["duracao"] != "Variável") ? "min" : "" ?></p>
+                  <p><b>Preço:</b> <?= $massagem["preco"] ?> €</p>
+                  <p><b>Descrição da massagem:</b> <br> <?= $massagem["descricao"] ?></p>
+                  <p><b>Benefícios:</b> <br> <?= $massagem["beneficios"] ?> </p>
+                </div>
+              </div>
             </div>
-          </div>
-        </div>
-
+          <?php endforeach; ?>
+<!-- 
         <div class="accordion-item">
           <h2 class="accordion-header">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
@@ -224,10 +223,11 @@
               </p>
             </div>
           </div>
-        </div>
-      </div>
-        
-      
+        </div> 
+-->
+
+
+      </div>      
     </div>
 
   </main>
