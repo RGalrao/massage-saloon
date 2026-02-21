@@ -1,7 +1,6 @@
 <?php
 
-// WhYiKQWyTOG3FoR - if0_41126480 (Website for SiteDeb) - infinityfree
-
+$texto = get_texto_home();
 $massagens = get_massagens();
 
 ?>
@@ -11,9 +10,7 @@ $massagens = get_massagens();
       <div class="col-12 text-center">
         <h1 class="title">Bem-vindo!</h1>
         <p class="mt-4 px-sm-5 mx-2">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum, earum totam tenetur quos, sed ad aperiam provident id reprehenderit quae officia. 
-          <br><br>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum, earum totam tenetur quos, sed ad aperiam provident id reprehenderit quae officia. 
+          <?= $texto["texto_home"] ?>
         </p>
       </div>
     </div>

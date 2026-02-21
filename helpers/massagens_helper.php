@@ -1,16 +1,37 @@
 <?php
 
+// funçao para obter texto da home page
+function get_texto_home(){
+  $sql = "SELECT * FROM home";
+  return select_sql_unico($sql);
+}
+
 // funçao para obter todas as massagens em "stock"
 function get_massagens() {
   $sql = "SELECT * FROM massagens";
   return select_sql($sql);
 }
 
-// funçao para obter uma massagem especifica
+// funçao para obter 1 massagem especifica
 function get_massagem($id) {
   $sql = "SELECT * FROM massagens WHERE id = ?";
   return select_sql_unico($sql, [$id]);
 }
+
+
+// funçao para obter texto da pagina "SOBRE"
+function get_about_me(){
+  $sql = "SELECT * FROM about_me";
+  return select_sql_unico($sql);
+}
+
+// funçao para obter formações da pagina "SOBRE"
+
+function get_formacoes(){
+  $sql = "SELECT * FROM formacoes";
+  return select_sql($sql);
+}
+
 
 
 
@@ -27,8 +48,6 @@ function inserir_disponibilidade($dia, $hora) {
   $sql = "INSERT INTO disponibilidade (dia_disponivel, hora_disponivel) VALUES (?, ?)";
   return idu_sql($sql, [$dia, $hora]);
 }
-
-
 
 
 
